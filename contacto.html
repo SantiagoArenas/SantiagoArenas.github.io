@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Página Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <div class="logo">
+            <img src="img/Logo.png" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="trayectoria.html">Trayectoria</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <br><br><br><br><br><br>
+        <section class="content contacto">
+            <h2>Contacto</h2>
+            <p>¿Alguna pregunta, consulta o inquietud? ¡No dudes en contactarme!</p>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>                
+
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="options">Soy...</label>
+                    <select id="options" name="options">
+                        <option value="familiar">Familiar</option>
+                        <option value="entrevistador">Entrevistador</option>
+                        <option value="admirador">Admirador</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="proteccion-datos" name="proteccion-datos" required>
+                    <label for="proteccion-datos">Acepto la política de (des)protección de datos.</label>
+                </div>
+
+                
+                
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Programación de Aplicaciones Telemáticas, 2024. </p>
+    </footer>
+</body>
+</html>

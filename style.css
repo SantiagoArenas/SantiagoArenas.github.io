@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d; 
+    color: #fff; 
+}
+
+.head {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    height: 120px; 
+    background-color: #1d1d1d;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 20px; 
+    height: 100px; 
+}
+
+.logo img {
+    height: 100%; 
+    display: block; 
+    width: auto; 
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.navbar {
+    background-color: #FFD700; 
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px; 
+    transition: background-color 0.3s ease; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #FFA500; 
+}
+
+
+.inicio {
+    padding: 50px 0;
+    text-align: center; 
+}
+
+.inicio img {
+    width: 400px; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+
+
+.about-me {
+    background-color: #FFA500;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+
+
+footer {
+    background-color: #FFD700; 
+    color: #333; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto {
+    text-align: center; 
+}
+
+.contact-form {
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+.form-group label {
+    display: block; 
+}
+
+.form-group input[type="tel"] {
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    margin-top: 5px; 
+}
+
+.form-group input[type="text"] {
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    margin-top: 5px; 
+}
+
+.form-group input[type="message"] {
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 20px; 
+    margin-top: 5px; 
+}
+
+.form-group input[type="email"] {
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    margin-top: 5px; 
+}
+
+.contact-form button[type="submit"] {
+    margin-bottom: 20px; 
+    background-color: #FFD700; 
+    color: #000000; 
+    padding: 12px 20px; 
+    font-size: 18px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #CF792E; 
+}
+
+.trayectoria h2 {
+    color: #FFD700; 
+}
+
+.trayectoria h3 {
+    color: #FFA500; 
+}
+
+.hobbies table {
+    border-collapse: collapse;
+}
+
+.hobbies table,
+.hobbies th,
+.hobbies td {
+    border: 1px solid #fff; 
+}
+
+.hobbies th,
+.hobbies td {
+    padding: 8px; 
+}
+
+.hobbies h2 {
+    color: #FFD700; 
+}
+
+.hobbies h3 {
+    color: #FFA500; 
+}
+
+.contacto h2 {
+    color: #FFD700; 
+}
+
+.form-group {
+    color: #FFA500;
+    font-size: 18px;
+}
+
+#options {
+    font-size: 40px; 
+}
+
+.li {
+    font-size: 15px;
+}
+
+.images-container {
+    text-align: center; 
+}
+
+.images-container img {
+    width: 320px; 
+    height: 200px; 
+    margin: 10px; 
+}
+
+.images-container video {
+    width: 330px;
+    height: 210px; 
+    margin: 10px; 
+}
+
+body {
+    line-height: 1.7; 
+}
